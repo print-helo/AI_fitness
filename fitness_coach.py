@@ -7,8 +7,8 @@ client = Groq(api_key="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"
 SYSTEM_PROMPT = "You are an expert AI Fitness Coach. Provide safe, domain-specific workout and nutrition advice. If asked about non-fitness topics, politely redirect the user back to fitness."
 
 # --- UI SETUP ---
-st.set_page_config(page_title="AI Fitness Pro", page_icon="💪")
-st.title("💪 Personal AI Fitness Coach")
+st.set_page_config(page_title="AI Fitness Pro")
+st.title(" Personal AI Fitness Coach")
 st.subheader("B.Tech CSE AI Essentials Project - Mukul")
 
 # Initialize chat history
