@@ -4,7 +4,7 @@ from groq import Groq
 # use command " python -m streamlit run fitness_coach.py " in terminal to run this website.
 
 # --- CONFIGURATION ---
-client = Groq(api_key="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")
+client = Groq(api_key="ADD YOUR API KEY") # you can generate a free one from https://console.groq.com/
 
 SYSTEM_PROMPT = "You are an expert AI Fitness Coach. Provide safe, domain-specific workout and nutrition advice. If asked about non-fitness topics, politely redirect the user back to fitness."
 
