@@ -1,6 +1,8 @@
 import streamlit as st
 from groq import Groq
 
+# use command " python -m streamlit run fitness_coach.py " in terminal to run this website.
+
 # --- CONFIGURATION ---
 client = Groq(api_key="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")
 
@@ -319,7 +321,7 @@ for message in st.session_state.messages:
 # Welcome message if no chat yet
 if not st.session_state.messages:
     with st.chat_message("assistant"):
-        st.markdown("👋 Hey! I'm your **AI Fitness Coach**. I can help you with workout plans, nutrition advice, and recovery tips. What's your fitness goal today?")
+        st.markdown("What are we training today?")
 
 # Handle quick input
 if st.session_state.quick_input:
